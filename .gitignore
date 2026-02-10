@@ -1,0 +1,5 @@
+*.db
+*.bolt
+*.sqlite
+*.log
+/dist/
