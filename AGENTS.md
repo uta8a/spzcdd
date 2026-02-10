@@ -19,7 +19,7 @@
 - 変更後は原則 `gofmt -w .` と `go test ./...` を実行
 
 ## Commit Messages
-- `.agent/skills/commit-messages.md` を参照
+- `docs/agent/skills/commit-messages/SKILL.md` を参照
 
 ## Pull Requests
 - PR作成時は `.github/pull_request_template.md` の項目を埋める
