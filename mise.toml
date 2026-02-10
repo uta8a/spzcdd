@@ -1,0 +1,28 @@
+[tools]
+go = "1.25.7"
+
+[tasks.init]
+description = "Initialize go module (idempotent)"
+run = "test -f go.mod || go mod init github.com/uta8a/spzcdd"
+
+[tasks.deps]
+description = "Add MVP Go dependencies"
+run = [
+	"mise run init",
+	"go get go.etcd.io/bbolt@latest",
+	"go get github.com/oklog/ulid/v2@latest",
+	"go get go.yaml.in/yaml/v4@latest",
+	"mise run tidy",
+]
+
+[tasks.tidy]
+description = "Run go mod tidy"
+run = "go mod tidy"
+
+[tasks.test]
+description = "Run unit tests"
+run = "pkgs=$(go list ./...); if [ -n \"$pkgs\" ]; then go test ./...; else echo 'no packages to test'; fi"
+
+[tasks.check]
+description = "Run tidy + tests (CI entrypoint)"
+run = ["mise run tidy", "mise run test"]

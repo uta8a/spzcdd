@@ -1,0 +1,6 @@
+{
+    "chat.useAgentSkills": true,
+    "chat.agentSkillsLocations": {
+        "docs/agent/skills": true
+    }
+}
