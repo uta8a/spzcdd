@@ -1,3 +1,8 @@
+---
+name: commit-messages
+description: 作業単位の追跡を優先したコミットメッセージの記述ガイドライン
+---
+
 # Skill: Commit Messages
 
 このリポジトリでは、コミットメッセージを「後から見て作業単位が追える」ことを最優先にします。
