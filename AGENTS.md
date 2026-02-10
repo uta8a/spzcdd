@@ -26,7 +26,9 @@
 - Spec/Execution は revision ごとに履歴を残す（上書き禁止）
 
 ## Tests / Quality
-- 変更後は原則 `gofmt -w .` と `go test ./...` を実行
+- Goの導入/バージョン固定/タスク実行は **mise** を唯一の入口にする
+  - 変更後は原則 `mise run check`（= `mise run tidy` + `mise run test`）を実行
+  - 必要に応じて `mise run tidy` / `mise run test` / `gofmt -w .` を使う
 
 ## Commit Messages
 - `docs/agent/skills/commit-messages/SKILL.md` を参照
