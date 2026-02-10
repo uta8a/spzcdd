@@ -10,6 +10,10 @@
 - 実装タスク計画は docs/plan が正
   - 作業は docs/plan/TASK.md の順で進める
 
+## Architecture
+- ディレクトリ構造と責務分割は `docs/spec/architecture.md` を正とする
+  - TASKでコードを追加する際は、このドキュメントの構造に沿って配置する
+
 ## Coding Guidelines
 - 追加依存は最小（stdlib優先）
 - 状態遷移は workflow 層に集約し、ハンドラは必ずそれを経由
