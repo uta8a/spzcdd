@@ -1,0 +1,13 @@
+# Implementation Tasks (MVP)
+
+- [ ] [TASK-1 ブランチ作成と初期化](TASK-1_branch-and-bootstrap.md)
+- [ ] [TASK-2 Goモジュール/依存関係の確定](TASK-2_go-module-and-deps.md)
+- [ ] [TASK-3 パッケージ構成とエントリポイント作成](TASK-3_project-skeleton.md)
+- [ ] [TASK-4 ドメインモデル定義（Task/Spec/Execution）](TASK-4_domain-model.md)
+- [ ] [TASK-5 状態機械（遷移/ガード）実装](TASK-5_state-machine.md)
+- [ ] [TASK-6 bboltストア層（バケット設計 + CRUD）](TASK-6_bbolt-store.md)
+- [ ] [TASK-7 config.yaml（必須）読み込みとバリデーション](TASK-7_config-loading.md)
+- [ ] [TASK-8 AI Provider抽象 + Codex JSON-RPC Provider](TASK-8_ai-provider-codexrpc.md)
+- [ ] [TASK-9 ジョブワーカー（SPEC_PENDING/EXEC_PENDING）と再実行](TASK-9_jobs-worker.md)
+- [ ] [TASK-10 Web UI（一覧/詳細）+ HTTPハンドラ/ルート](TASK-10_web-ui-and-handlers.md)
+- [ ] [TASK-11 結合・検証（テスト/手動動作確認）](TASK-11_validation.md)
