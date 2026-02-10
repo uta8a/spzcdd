@@ -10,9 +10,15 @@
 - 実装タスク計画は docs/plan が正
   - 作業は docs/plan/TASK.md の順で進める
 
+## Documentation Policy
+- `docs/spec/` 配下のストック仕様書を追加/更新した場合は、必ずこの `AGENTS.md` にも参照（または方針）を追記して、正の所在が追える状態を維持する
+
 ## Architecture
 - ディレクトリ構造と責務分割は `docs/spec/architecture.md` を正とする
   - TASKでコードを追加する際は、このドキュメントの構造に沿って配置する
+
+## Domain Model
+- ドメインモデル（Task/Spec/Execution・ULID方針）は `docs/spec/domain-model.md` を正とする
 
 ## Coding Guidelines
 - 追加依存は最小（stdlib優先）
