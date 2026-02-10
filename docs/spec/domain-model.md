@@ -21,7 +21,6 @@
 1タスクの“現在地”と、参照する最新リビジョン（Spec/Execution）を保持する。
 
 - `id` (string, ULID)
-- `id` (string, ULID)
 - `number` (int; 通し番号、1から開始)
 - `title` (string)
 - `draft_body` (string)
