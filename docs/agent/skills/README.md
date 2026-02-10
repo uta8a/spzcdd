@@ -1,3 +1,3 @@
 # Agent Skills
 
-- [commit-messages.md](commit-messages.md)
+- [commit-messages](commit-messages/SKILL.md)
